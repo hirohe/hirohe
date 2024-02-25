@@ -20,6 +20,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_url: 'https://wakapi.dev'
           plugin_wakatime_user: hirohe
-          plugin_wakatime_days: 180
+          plugin_wakatime_days: 365
+          plugin_wakatime_languages_ignored: JSON
           plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKAPI_TOKEN }}
